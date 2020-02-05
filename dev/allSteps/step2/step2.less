@@ -1,0 +1,61 @@
+.step2 {
+    text-align: center;
+    position: relative;
+    min-height: 500px;
+
+    h2 {
+        position: absolute;
+        bottom: 25px;
+        width: 100%;
+    }
+
+    h3 {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-weight: 300;
+    }
+
+    .change {
+        cursor: pointer;
+        color: @color1;
+        text-decoration: underline;
+    }
+
+    @media @isMobile {
+        height: 620px;
+
+        h2 {
+            bottom: 50px;
+        }
+    }
+}
+
+
+.iframeWrapper {
+    width: 500px;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+
+    .iframe {
+        position: absolute;
+        top: 0;
+        @{side}: 0;
+        width: 100%;
+        min-height: 460px;
+
+        @media @isMobile {
+            min-height: 100vh;
+        }
+    }
+
+    .error {
+        text-align: center;
+
+        h3,
+        h5 {
+            display: block;
+        }
+    }
+}

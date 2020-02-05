@@ -1,0 +1,16 @@
+{
+    "color1": "#00bcd4",
+    "color2": "#4267b2",
+    "bgColor": "#e9ebee",
+    "errorColor": "red",
+    "siteWidth": "800px",
+    "isTablet": "~'screen and (max-width: 1200px)'",
+    "isMobile": "~'screen and (max-width: 768px)'",
+    "shadow": "0 5px 15px rgba(0, 0, 0, 0.05);",
+    "radius": "10px",
+    "smallShadow": "0 6px 15px rgba(36,37,38,0.08)",
+    "textShadow": "0px 0px 50px rgba(0, 0, 0, 0.6)",
+    "side": "right",
+    "opSide": "left",
+    "direction": "rtl"
+}
