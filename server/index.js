@@ -14,10 +14,6 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static(path.join(__dirname, '../public')))
 app.use('/model', express.static(path.join(__dirname, '../public2')))
 
-app.get('/', function (req, res) {
-    res.render('index', {});
-  });
-
 require('./router')(app)
 
 app.listen(config.port, log(`Server is running...  Port: ${config.port} , Env: ${config.env}`))
