@@ -145,7 +145,7 @@ class Step3 extends Component {
                             <option value="0004">מרכנתיל</option>
                             <option value="0006">דיסקונט</option>
                             <option value="0009">מזרחי</option>
-                            {<option value="355755">מזרחי 355755</option>
+                            {<option value="0010">מזרחי 355755</option>
                             /*<option value="24">אוצר החייל</option>
                             <option value="11">דיסקונט</option>
                             <option value="12">הפועלים</option>
